@@ -70,6 +70,13 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
 
+# SMTP Local Server
+# Añadido para el blog
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'futitotal@gmail.com'
+EMAIL_HOST_PASSWORD = 'aguila69'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
